@@ -436,7 +436,7 @@
       const CFG = {
         name: "riie", // her name or nickname
         from: "Ash", // your name
-        unlock: "", // e.g. "2026-12-05" locks the site until that date. Leave "" to send anytime. Add ?preview to the URL to bypass.
+        unlock: "2026-12-29", // e.g. "2026-12-05" locks the site until that date. Leave "" to send anytime. Add ?preview to the URL to bypass.
         photo: "riie-baby.jpg", // put her photo next to this file
         weakness: "iced coffee", // ID card "Weakness"
         inside: "professional overthinker", // ID card "Status"
@@ -1064,7 +1064,7 @@
         fin = 1;
         clearInterval(hid);
         go("fin");
-        $("#ft").textContent = "🎉";
+        $("#ft").textContent = "";
         $("#fb").innerHTML = "";
         confetti();
         await sleep(2200);
